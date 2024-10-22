@@ -1,0 +1,105 @@
+/* Style de base pour le corps de la page */
+body {
+    font-family: 'Arial', sans-serif; /* Tu peux remplacer par une police Google Fonts si souhaité */
+    background-color: #f8f9fa; /* Couleur de fond moderne et claire */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de la barre de navigation */
+.navbar {
+    background-color: #333; /* Couleur sombre pour la barre de navigation */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajout d'une légère ombre pour un effet visuel */
+}
+
+.navbar-brand {
+    font-size: 1.75rem; /* Taille de la marque dans la barre de navigation */
+    font-weight: bold;  /* Marque en gras */
+    color: white;
+}
+
+/* Style des liens dans la barre de navigation */
+.navbar-nav .nav-link {
+    font-size: 1.1rem; /* Taille des liens */
+    padding: 0.75rem; /* Espacement autour des liens */
+    color: white;
+    transition: color 0.3s ease-in-out; /* Transition douce lors du survol */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f0ad4e; /* Changement de couleur des liens au survol */
+}
+
+/* Style global pour les sections */
+section {
+    margin: 40px 0; /* Marges entre les sections */
+    padding: 20px 0; /* Padding interne */
+}
+
+/* Boutons personnalisés */
+.btn-primary {
+    background-color: #f0ad4e; /* Couleur primaire personnalisée */
+    border: none; /* Pas de bordure */
+    transition: background-color 0.3s ease-in-out; /* Animation douce pour le changement de couleur */
+}
+
+.btn-primary:hover {
+    background-color: #ec971f; /* Couleur au survol */
+}
+
+/* Style pour les images de profil */
+img.rounded-circle {
+    border: 5px solid #333; /* Bordure autour de l'image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre pour donner de la profondeur */
+}
+
+/* Style pour le pied de page */
+footer {
+    background-color: #333; /* Couleur de fond du pied de page */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centrage du texte */
+    padding: 20px; /* Espacement interne */
+    margin-top: 40px; /* Espace avant le pied de page */
+}
+
+footer p {
+    margin: 0; /* Retirer les marges du texte dans le footer */
+}
+
+/* Style responsive pour les petites résolutions */
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 1rem; /* Réduction de la taille des liens sur petits écrans */
+    }
+
+    h1.display-4 {
+        font-size: 2.5rem; /* Réduction de la taille du titre */
+    }
+
+    .btn-lg {
+        padding: 0.75rem 1.25rem; /* Ajustement du padding des grands boutons */
+        font-size: 1.1rem; /* Ajustement de la taille de la police des boutons */
+    }
+}
+
+/* Styles spécifiques pour rendre la page plus attrayante visuellement */
+.container {
+    padding: 20px 15px;
+}
+
+h1.display-4 {
+    font-weight: 700;
+    color: #333;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #555;
+}
+
+.rounded-circle {
+    max-width: 100%;
+    height: auto;
+}
